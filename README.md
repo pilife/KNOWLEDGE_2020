@@ -32,9 +32,10 @@
 
 - leetcode 
 - 剑指offer
-- [奇奇怪怪的问题](notes/algorithm/奇奇怪怪的问题.md)
-- [面试经典](notes/algorithm/面试经典.md)
 - [经典数据结构](notes/algorithm/经典数据结构.md)
+- [经典算法](notes/algorithm/classic-algo.md)
+- [面试真题](notes/algorithm/面试经典.md)
+- [奇奇怪怪的问题](notes/algorithm/奇奇怪怪的问题.md)
 
 #### 操作系统
 
@@ -94,7 +95,6 @@
   - JUC：ConcurrentHashMap的原理
 
 #### 数据库
-
 - ACID-I：事务的隔离性区别和实现
 - 索引
   - 优点和缺点
@@ -106,7 +106,7 @@
     - 不方便建立索引：text, image
     - 建立索引没啥用：只有很少数据值的列
   - 索引的实现原理
-    - B和B+树区别
+    - B和B+树区别（详解见[P1-数据结构算法-经典数据结构](notes/algorithm/经典数据结构.md)）
       - 叶节点存数据
       - 每个叶节点带有指向下一个节点的指针
     - B+树的优势
