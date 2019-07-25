@@ -60,70 +60,19 @@
 
 - 一致性算法
 - 共识算法
+  - BFT
+    - POW
+    - PBFT
+  - CFT
+    - PAXOS
+    - RAFT
 - 分布式锁
 
 ---
 
 ### 第二梯队（优势）
 
-#### JAVA
-
-- [常用类的实现](notes/java/常用类的实现.md)
-
-- BIO，NIO，AIO
-
-- 基础数据类型和运算
-
-- Enum枚举类型
-
-  - 使用方法（带成员变量）
-  - 单例模式
-  - EnumMap（数组即可，ordinal数组下标）
-  - EnumSet（位运算判断是否存在, ordinal第几位）
-
-- 深拷贝，浅拷贝
-
-  - 浅拷贝：Clone 
-
-    - 需要实现Cloneable接口
-
-    - new vs clone
-
-      轻量级（构造函数复杂）的对象可以使用new
-
-      重量级对象可以使用clone
-
-    - Object.clone原理：以堆上的内存存储解释的话（不计内务内存），对一个对象a的clone就是在堆上分配一个和a在堆上所占存储空间一样大的一块地方，然后把a的堆上内存的内容复制到这个新分配的内存空间上。 
-
-  - 深拷贝：反序列化
-
-- 闭包
-
-- 常量池
-
-- JVM的内存区域，各自的功能（可以对比linux内存模型）
-
-- JVM GC
-
-- Reference
-
-- JVM ClassLoader
-
-- JVM 并发
-
-  - JUC：ConcurrentHashMap的原理
-  - 内存模型-JMM
-    - 特征：原子性，可见性，有序性
-    - 基本操作
-    - 操作规则/先行先发生原则
-    - 实现：内存屏障，monitorenter/monitorexit，...
-  - 多线程
-    - 实现（KLT，详情见操作系统Linux进程部分）
-    - 状态
-  - 线程安全
-    - 定义：多线程访问一个对象，无需额外同步协调，调用都可以获得正确的结果，则这个对象是线程安全的
-    - 解决方案：互斥同步（synchrinized, ReentrantLock），非阻塞同步（CAS），无同步（ThreadLocal）
-  - 锁优化
+#### [JAVA](./notes/java/overview.md)
 
 #### 数据库
 - ACID-I：事务的隔离性区别和实现
