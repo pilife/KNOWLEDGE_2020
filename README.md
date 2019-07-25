@@ -39,7 +39,7 @@
 
 #### 操作系统
 
-![0_1291965816Su3B](images/os-overview.gif)
+![0_1291965816Su3B](images/os/os-overview.gif)
 
 - [Linux内存](notes/os/Linux内存.md)
 - [Linux进程](notes/os/Linux进程.md)
