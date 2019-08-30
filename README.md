@@ -39,7 +39,7 @@
 
 #### 操作系统
 
-![0_1291965816Su3B](images/os/os-overview.gif)
+![](images/os/os-overview.gif)
 
 - [Linux内存](notes/os/Linux内存.md)
 - [Linux进程](notes/os/Linux进程.md)
@@ -76,6 +76,7 @@
 
 #### 数据库
 - ACID-I：事务的隔离性区别和实现
+
 - 索引
   - 优点和缺点
     - 优点：提升查询效率
@@ -96,6 +97,10 @@
     - 和普通索引一样，只是依次排序左侧数据来决定偏序大小
     - mysql最左匹配
   - 聚集索引：直接决定物理存储的位置
+  
+- Shard和Partition的区别
+
+  ![](./images/db/db-shard-partition.bmp)
 
 #### 开源项目
 

@@ -28,7 +28,7 @@
 
 ## 排序算法
 
-![img](/Users/zhangyi/proj-dev/knowledge-review/images/algorithm/sort-01.png)
+![img](../../images/algorithm/sort-01.png)
 
 选择排序：
 
